@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix | India</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: url("https://assets.nflxext.com/ffe/siteui/vlv3/8f12b4f0-a894-4d5b-9c36-5ba391c63fbe/44355e66-dbf8-4dd8-ba6b-8e9e32ec6abd/IN-en-20230320-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+    }
+
+    #sub-body {
+      float: left;
+      width: 100vw;
+      height: 100vh;
+      background-color: rgba(0, 0, 0, 0.7);
+    }
+
+    nav {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    #logo {
+      width: 40%;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+    }
+
+    #buttons {
+      width: 60%;
+      text-align: right;
+      padding: 30px;
+    }
+
+    nav>section>img {
+      width: 150px;
+      height: 50px;
+    }
+
+    nav>section>button {
+      color: white;
+      border: none;
+      margin-left: 16px;
+      font-size: 15px;
+      border-radius: 5px;
+      padding: 8px 14px;
+      font-weight: bold;
+      background-color: red;
+    }
+
+    main {
+      width: 100vw;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    main>div {
+      color: white;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 0;
+      font-size: 55px;
+    }
+
+    #p1 {
+      margin: 13px;
+      font-size: 28px;
+    }
+
+    #p2 {
+      margin: 13px;
+      font-size: 23px;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="sub-body">
+    <nav>
+      <section id="logo"><img alt="Netflix Logo"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Netflix_2015_logo.svg/2560px-Netflix_2015_logo.svg.png">
+      </section>
+      <section id="buttons">
+        <button>Sign In</button><button>Register</button>
+      </section>
+    </nav>
+    <main>
+      <div>
+        <h1>Unlimited movies, TV shows and more.</h1>
+        <p id="p1">Watch anywhere. Cancel anytime.</p>
+        <p id="p2">Ready to watch? Enter your email to create or restart your membership.</p>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
